@@ -27,7 +27,9 @@ no_index:
 provides:
   Nephia::Setup::Plugin::Assets::JQuery:
     file: lib/Nephia/Setup/Plugin/Assets/JQuery.pm
-    version: 0.01
+    version: 0.02
+  Nephia::Setup::Plugin::Assets::JQuery::Source_1_10_1:
+    file: lib/Nephia/Setup/Plugin/Assets/JQuery/Source_1_10_1.pm
 requires:
   Nephia: 0.80
   perl: 5.008005
@@ -35,4 +37,4 @@ resources:
   bugtracker: https://github.com/nephia/Nephia-Setup-Plugin-Assets-JQuery/issues
   homepage: https://github.com/nephia/Nephia-Setup-Plugin-Assets-JQuery
   repository: git://github.com/nephia/Nephia-Setup-Plugin-Assets-JQuery
-version: 0.01
+version: 0.02

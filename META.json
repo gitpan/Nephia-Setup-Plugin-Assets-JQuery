@@ -53,7 +53,10 @@
    "provides" : {
       "Nephia::Setup::Plugin::Assets::JQuery" : {
          "file" : "lib/Nephia/Setup/Plugin/Assets/JQuery.pm",
-         "version" : "0.01"
+         "version" : "0.02"
+      },
+      "Nephia::Setup::Plugin::Assets::JQuery::Source_1_10_1" : {
+         "file" : "lib/Nephia/Setup/Plugin/Assets/JQuery/Source_1_10_1.pm"
       }
    },
    "release_status" : "stable",
@@ -67,5 +70,5 @@
          "web" : "https://github.com/nephia/Nephia-Setup-Plugin-Assets-JQuery"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
