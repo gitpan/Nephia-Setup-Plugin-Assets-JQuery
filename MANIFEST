@@ -5,7 +5,7 @@ META.json
 README.md
 cpanfile
 lib/Nephia/Setup/Plugin/Assets/JQuery.pm
-lib/Nephia/Setup/Plugin/Assets/JQuery/Source_1_10_1.pm
+share/jquery.min.js
 t/00_compile.t
 t/01_setup.t
 META.yml

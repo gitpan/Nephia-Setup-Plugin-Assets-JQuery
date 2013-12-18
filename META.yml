@@ -9,7 +9,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.6.5, CPAN::Meta::Converter version 2.132510'
+generated_by: 'Minilla/v0.9.0, CPAN::Meta::Converter version 2.132140'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -24,17 +24,18 @@ no_index:
     - eg
     - examples
     - author
+    - builder
 provides:
   Nephia::Setup::Plugin::Assets::JQuery:
     file: lib/Nephia/Setup/Plugin/Assets/JQuery.pm
-    version: 0.02
-  Nephia::Setup::Plugin::Assets::JQuery::Source_1_10_1:
-    file: lib/Nephia/Setup/Plugin/Assets/JQuery/Source_1_10_1.pm
+    version: 0.03
 requires:
+  File::Copy: 0
+  File::Share: 0.03
   Nephia: 0.80
   perl: 5.008005
 resources:
   bugtracker: https://github.com/nephia/Nephia-Setup-Plugin-Assets-JQuery/issues
   homepage: https://github.com/nephia/Nephia-Setup-Plugin-Assets-JQuery
-  repository: git://github.com/nephia/Nephia-Setup-Plugin-Assets-JQuery
-version: 0.02
+  repository: git://github.com/nephia/Nephia-Setup-Plugin-Assets-JQuery.git
+version: 0.03
